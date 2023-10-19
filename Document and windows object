@@ -1,0 +1,23 @@
+Document object and Window object 
+     Before we understand about document object and windows object we should know about what is document and what is window.
+
+     Document is a webpage which can be accessed in the browser.
+     Window is a tab in the browser which displays the content of the webpage.
+
+     Document object is used to access the webpage. For example- document.open() ,it creates blank document.
+     Window objects are used to access the browser and tabs.For Example - window.location() , it access the url.
+
+     Document object is the parameter of window object.For Example window.document
+     Window object is the top most object loaded in the browser. For Example - window.window.
+
+     All the tags elements with attributes in html are part of document object.
+     Global objects functions and variables of javascript are the members of the window object.
+
+     Document is a part of BOM and DOM.(BOM- Browser access model,DOM - Document access Model)
+     Window is part of BOM not DOM.
+
+     Document object properties can be accessed by window object. For Example - window.document.title.
+     window object properties can not be accessed by document object.
+
+
+      
